@@ -21,10 +21,10 @@ font-size: 12rem;
 color: bisque;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-weight: bold;
-text-align: center;
+
 position: absolute;
 left: 50%;
-top: 50%;
+top: 48%;
 transform: translate(-50%,-50%);
 
 }
@@ -41,7 +41,7 @@ z-index: 3;
 
 .item .refri{
 z-index: 2;
-width: 600px;
+
 position: absolute;
 left: 50%;
 top: 50%;
@@ -90,9 +90,284 @@ margin-left: 50px;
 
 
 }
+.item.active img.framboesa{
+  animation: toActive 0.6s ease-in-out 1;
+
+
+
+}
+.item.active img.pesegocortado{
+  animation: toActive 0.6s ease-in-out 1;
+
+
+
+}
+.item.active img.lata-pesego{
+  animation: toActive 0.6s ease-in-out 1;
+
+
+
+}
+.item.active .botaopesego{
+  animation: toActive 0.6s ease-in-out 1;
+
+
+
+}
+
+
+.item.active img.pesegointeiro{
+  animation: toActive 0.6s ease-in-out 1;
+
+
+
+}
+.item.active img.lata-vermelhas{
+  animation: toActive 0.6s ease-in-out 1;
+
+
+
+}
+.item.active .botaovermelhas{
+  animation: toActive 0.6s ease-in-out 1;
+
+
+
+}
+.item.active img.Morango{
+  animation: toActive 0.6s ease-in-out 1;
+
+
+
+}
+.item.active img.framboesa{
+  animation: toActive 0.6s ease-in-out 1;
+
+
+
+}
+.item.active img.lata-manga{
+  animation: toActive 0.6s ease-in-out 1;
+
+
+
+}
+.item.active img.mangacortada{
+  animation: toActive 0.6s ease-in-out 1;
+
+
+
+}
+.item.active img.mangainteiro{
+  animation: toActive 0.6s ease-in-out 1;
+
+
+
+}
+
+
 .item.active .title{
   animation: toActive 0.6s ease-in-out 1;
 
 
 
 }
+.vermelhas{
+  background: linear-gradient(0deg,rgba(43, 14, 85, 1) 3%, rgba(73, 1, 149, 1) 28%, rgba(71, 1, 163, 1) 65%);
+}
+.lata-vermelhas{  
+  height: 645px;
+  width: 232px;
+  filter: drop-shadow(-4px 15px 20px black);
+
+
+
+  }
+  .titulovermelha{
+    font-size: 13rem;
+    color: bisque;
+    top: 427px;
+    left: 1196px;
+    text-align: right;
+  }
+  
+ .Morango{
+  width: 470px;
+  height: 470px;
+  z-index: 0;
+  position: absolute;
+  right: 846px;
+  top: 456px;
+  filter: drop-shadow(-4px 15px 20px black);
+ }
+ .framboesa{
+position: absolute;
+z-index: 4;
+right: 519px;
+    top: 460px;
+    width: 614px;
+    height: 494px;
+ transform: rotate(7.02deg);
+ filter: drop-shadow(-4px 15px 20px black);
+ }
+ .botaovermelhas{
+  width: 207px;
+  height: 65px;
+  border: none;
+  border-radius: 42px;
+  opacity: 70%;
+  background: #EF0E34;
+  
+  cursor: pointer;
+
+  position: absolute;
+  z-index: 5;
+  left: 44%;
+  top: 89%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  P{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+  color: rgb(255, 255, 255);
+    left: 39px;
+    top: -26px;
+    position: absolute;
+
+  }
+ }
+
+ .pesego{
+  background: linear-gradient(0deg,rgba(243, 96, 17, 1) 3%, rgba(184, 51, 3, 1) 28%, rgba(254, 158, 9, 1) 65%);
+ }
+ .lata-pesego{  
+  height: 645px;
+  width: 232px;
+  filter: drop-shadow(-4px 15px 20px black);
+
+
+
+  }
+  .pesegocortado{
+    
+      width: 400px;
+      height: 400px;
+      z-index: 4;
+      position: absolute;
+      right: 606px;
+      top: 446px;
+      filter: drop-shadow(-4px 15px 20px black);
+     
+  }
+  .pesegointeiro{
+    width: 170px;
+    height: 170px;
+    z-index: 0;
+    position: absolute;
+    right: 1156px;
+    top: 616px;
+    filter: drop-shadow(-4px 15px 20px black);
+   }
+   .titulopesego{
+    font-size: 18rem;
+    color: bisque;
+    top: 257px;
+    left: 956px;
+    text-align: center;
+
+
+   }
+   .botaopesego{
+    width: 207px;
+    height: 65px;
+    border: none;
+    border-radius: 42px;
+    opacity: 90%;
+    background: #56BFD2;
+    
+    cursor: pointer;
+  
+    position: absolute;
+    z-index: 5;
+    left: 44%;
+    top: 89%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    P{
+      font-size: 32px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+    color: rgb(255, 255, 255);
+      left: 39px;
+      top: -26px;
+      position: absolute;
+  
+    }
+   }
+   .manga{background: linear-gradient(0deg,rgba(110, 2, 94, 1) 3%, rgba(120, 5, 103, 1) 28%, rgba(212, 4, 181, 1) 65%);}
+   .lata-manga{  
+    height: 645px;
+    width: 272px;
+    filter: drop-shadow(-4px 15px 20px black);
+  
+  
+  
+    }
+    .titulomanga{
+      font-size: 17rem;
+      color: bisque;
+      top: 227px;
+      left: 906px;
+      text-align: center;
+    }
+    
+   .mangacortada{
+    width: 398px;
+    height: 365px;
+    z-index: 4;
+    position: absolute;
+    right: 620px;
+    top: 480px;
+    filter: drop-shadow(-4px 15px 20px black);
+   }
+   .mangainteiro{
+    width: 170px;
+    height: 170px;
+    z-index: 0;
+    position: absolute;
+    right: 1156px;
+    top: 616px;
+    filter: drop-shadow(-4px 15px 20px black);
+   }
+   .botaomanga{
+    width: 207px;
+    height: 65px;
+    border: none;
+    border-radius: 42px;
+    opacity: 70%;
+    background: #E6C25B;
+    
+    cursor: pointer;
+  
+    position: absolute;
+    z-index: 5;
+    left: 44%;
+    top: 89%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    P{
+      font-size: 32px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+    color: rgb(255, 255, 255);
+      left: 39px;
+      top: -26px;
+      position: absolute;
+  
+    }
+   }
+   
